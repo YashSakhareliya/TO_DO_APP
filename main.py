@@ -1,11 +1,11 @@
 # get todos list
-def get_todos(filepath):
+def get_todos(filepath="todos.txt"):
     with open(filepath, "r") as File_local:
         todos_local = File_local.readlines()    # read file method using readlines for list
     return todos_local
 
 
-def write_todos(filepath,todos_local):
+def write_todos(todos_local,filepath="todos.txt"):
     with open(filepath, "w") as File:  # overwrite existing file with new list
         File.writelines(todos_local)
 
@@ -23,7 +23,7 @@ while True:
         todos.append(todo)
 
 
-        write_todos("todos.txt",todos)
+        write_todos(todos)
 
     elif User_action.startswith("show"):
 
@@ -44,7 +44,7 @@ while True:
             New_todo = input("Enter your new todo: ")
             todos[number] = New_todo + "\n"
 
-            write_todos("todos.txt",todos)
+            write_todos(todos)
 
         except ValueError:
             print("Invalid command ")
@@ -61,7 +61,7 @@ while True:
             Remove_todo =todos[index].strip('\n')
             todos.pop(index)
 
-            write_todos("todos.txt",todos)
+            write_todos(todos)
 
             print(f"Completed {Remove_todo}")
         except IndexError:

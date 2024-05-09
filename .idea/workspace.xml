@@ -4,12 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ea0fa256-05de-4ad6-9199-d0f30ef06732" name="Changes" comment="bug fix with exception handling">
-      <change afterPath="$PROJECT_DIR$/Examples/Ex_1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Examples/file/Ex_1.txt" afterDir="false" />
+    <list default="true" id="ea0fa256-05de-4ad6-9199-d0f30ef06732" name="Changes" comment="write optimal code and add examples">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/todos.txt" beforeDir="false" afterPath="$PROJECT_DIR$/todos.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -115,7 +111,7 @@
       <workItem from="1715223211674" duration="2263000" />
       <workItem from="1715227425970" duration="426000" />
       <workItem from="1715233593668" duration="664000" />
-      <workItem from="1715238889547" duration="347000" />
+      <workItem from="1715238889547" duration="1838000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <option name="closed" value="true" />
@@ -141,7 +137,15 @@
       <option name="project" value="LOCAL" />
       <updated>1715227772019</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="write optimal code and add examples">
+      <option name="closed" value="true" />
+      <created>1715240157167</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1715240157167</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -162,9 +166,11 @@
     <MESSAGE value="initial commit" />
     <MESSAGE value="complete app code" />
     <MESSAGE value="bug fix with exception handling" />
-    <option name="LAST_COMMIT_MESSAGE" value="bug fix with exception handling" />
+    <MESSAGE value="write optimal code and add examples" />
+    <option name="LAST_COMMIT_MESSAGE" value="write optimal code and add examples" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/TO_DO_APP_CLI_$main.coverage" NAME="main Coverage Results" MODIFIED="1715234159312" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/TO_DO_APP_CLI_$main.coverage" NAME="main Coverage Results" MODIFIED="1715240058909" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/TO_DO_APP_CLI_$Ex_1.coverage" NAME="Ex_1 Coverage Results" MODIFIED="1715239182536" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Examples" />
   </component>
 </project>
