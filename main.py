@@ -1,25 +1,35 @@
+# get todos list
+def get_todos(filepath):
+    with open(filepath, "r") as File_local:
+        todos_local = File_local.readlines()    # read file method using readlines for list
+    return todos_local
+
+
+def write_todos(filepath,todos_local):
+    with open(filepath, "w") as File:  # overwrite existing file with new list
+        File.writelines(todos_local)
+
+
+
 while True:
     User_action = input("Type add,show,edit,complete,exit: ")
-    User_action = User_action.strip()
+    User_action = User_action.strip() # strip() for removing space
 
     if User_action.startswith("add"):
         todo = User_action[4:] + '\n'
 
-        with open("todos.txt", "r") as File:
-            todos = File.readlines()
+        todos = get_todos("todos.txt")     #call function get todolist
 
         todos.append(todo)
 
 
-        with open("todos.txt", "w") as File:
-            File.writelines(todos)
+        write_todos("todos.txt",todos)
 
     elif User_action.startswith("show"):
 
-        with open("todos.txt", "r") as File:
-            todos = File.readlines()
+        todos = get_todos("todos.txt")
 
-        for index, todo in enumerate(todos):
+        for index, todo in enumerate(todos):    #enumerate for give number of todos
             todo = todo.strip('\n')
             print(f"{index+1} - {todo}")
 
@@ -29,14 +39,13 @@ while True:
             number = int(User_action[5:])
             number = number-1
 
-            with open("todos.txt", "r") as File:
-                todos = File.readlines()
+            todos = get_todos("todos.txt")
 
             New_todo = input("Enter your new todo: ")
             todos[number] = New_todo + "\n"
 
-            with open("todos.txt",'w') as File:
-                File.writelines(todos)
+            write_todos("todos.txt",todos)
+
         except ValueError:
             print("Invalid command ")
             continue
@@ -44,15 +53,15 @@ while True:
     elif User_action.startswith("complate"):
         try:
             number = int(User_action[9:])
-            with open("todos.txt", "r") as File:
-                todos = File.readlines()
+
+            todos = get_todos("todos.txt")
+
             index = number - 1
 
             Remove_todo =todos[index].strip('\n')
             todos.pop(index)
 
-            with open("todos.txt", "w") as File:
-                File.writelines(todos)
+            write_todos("todos.txt",todos)
 
             print(f"Completed {Remove_todo}")
         except IndexError:
@@ -64,4 +73,5 @@ while True:
 
     else:
         print("Sorry, I didn't understand")
+
 
