@@ -1,5 +1,5 @@
 good morning
-play chess
+play chess now
 new todo
 include new feature
 new to-do
@@ -7,3 +7,7 @@ Play cricket
 Play chess
 Watch Cricket
 RR VS CSK
+WIN RR
+win csk
+hey let's play cricket
+going to Home 
