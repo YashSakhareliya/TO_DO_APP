@@ -8,8 +8,11 @@ User_input = sg.InputText(tooltip="type todo",key='todo')
 Edit_button = sg.Button('Edit')
 list_box = sg.Listbox(values=function.get_todos(),key='todos_list',enable_events=True, size=(45,10))
 
+complate_button =sg.Button('Complate')
+exit_button = sg.Button('Exit')
+
 window = sg.Window('My to-do App',
-                   layout=[[lable],[User_input,Button],[list_box,Edit_button]],
+                   layout=[[lable],[User_input,Button],[list_box,Edit_button,complate_button],[exit_button]],
                    font=('Helvetica',20))
 
 while True:
@@ -37,6 +40,17 @@ while True:
 
         case "todos_list":
             window['todo'].update(value=values['todos_list'][0])
+
+        case "Complate":
+            todo_to_complate = values['todos_list'][0]
+            todos = function.get_todos()
+            todos.remove(todo_to_complate)
+            function.write_todos(todos)
+            window['todos_list'].update(values=todos)
+            window['todo'].update(value='')
+
+        case "Exit":
+            break
 
         case sg.WIN_CLOSED:
             break
