@@ -1,0 +1,7 @@
+[{"Question_text": "What are dolphin?",
+  "alternative": ["option 1","option 2","option 3","option 4"],
+  "correct_ans": 3},
+  {"Question_text": "What is your name?",
+  "alternative": ["option 1","option 2"],
+  "correct_ans": 1}
+]

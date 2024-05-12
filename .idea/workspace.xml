@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ea0fa256-05de-4ad6-9199-d0f30ef06732" name="Changes" comment="give defualt args" />
+    <list default="true" id="ea0fa256-05de-4ad6-9199-d0f30ef06732" name="Changes" comment="import moduls">
+      <change afterPath="$PROJECT_DIR$/Examples/Ex_2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Examples/file/Ex_2.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -43,7 +47,9 @@
   &quot;associatedIndex&quot;: 7
 }</component>
   <component name="ProjectId" id="2gByA6r8wbAufc6CBPOG8pKvJ47" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -51,6 +57,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Python.Ex_1.executor": "Run",
+    "Python.Ex_2.executor": "Run",
     "Python.main.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -110,6 +117,8 @@
       <workItem from="1715227425970" duration="426000" />
       <workItem from="1715233593668" duration="664000" />
       <workItem from="1715238889547" duration="2699000" />
+      <workItem from="1715314652590" duration="367000" />
+      <workItem from="1715483804347" duration="1592000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <option name="closed" value="true" />
@@ -151,7 +160,15 @@
       <option name="project" value="LOCAL" />
       <updated>1715242061976</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="import moduls">
+      <option name="closed" value="true" />
+      <created>1715315000710</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1715315000710</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -174,10 +191,11 @@
     <MESSAGE value="bug fix with exception handling" />
     <MESSAGE value="write optimal code and add examples" />
     <MESSAGE value="give defualt args" />
-    <option name="LAST_COMMIT_MESSAGE" value="give defualt args" />
+    <MESSAGE value="import moduls" />
+    <option name="LAST_COMMIT_MESSAGE" value="import moduls" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/TO_DO_APP_CLI_$main.coverage" NAME="main Coverage Results" MODIFIED="1715241967444" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/TO_DO_APP_CLI_$main.coverage" NAME="main Coverage Results" MODIFIED="1715314883314" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/TO_DO_APP_CLI_$Ex_1.coverage" NAME="Ex_1 Coverage Results" MODIFIED="1715239182536" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Examples" />
   </component>
 </project>
