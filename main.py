@@ -1,6 +1,10 @@
 # get todos list
 #from function import get_todos,write_todos
 import function
+import time
+
+cur_time = time.strftime("IS NOW, %d %b - %Y, %I:%M:%S %p")
+print(cur_time)
 
 while True:
     User_action = input("Type add,show,edit,complete,exit: ")
