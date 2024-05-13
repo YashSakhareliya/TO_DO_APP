@@ -1,3 +1,5 @@
 /.venv/
+build
+dist
+GUI_TO_DO.spec
 .idea
-
