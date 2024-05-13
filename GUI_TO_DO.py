@@ -3,25 +3,25 @@ import PySimpleGUI as sg
 import time
 
 sg.theme('DarkAmber')
-clock = sg.Text(" ",key='clock')
+clock = sg.Text(" ", key='clock')
 
 lable = sg.Text('Type in a to-do')
-Button = sg.Button('Add')
-User_input = sg.InputText(tooltip="type todo",key='todo')
+Add_Button = sg.Button(image_size=(30,30),image_source="004 add.png",tooltip="Add Todo", mouseover_colors="LightBlue2", key="Add")
+User_input = sg.InputText(tooltip="type todo", key='todo')
 
 Edit_button = sg.Button('Edit')
 list_box = sg.Listbox(values=function.get_todos(),key='todos_list',enable_events=True, size=(45,10))
 
-complate_button =sg.Button('Complate')
+complete_button =sg.Button(image_source="004 complete.png",tooltip="complete todo", mouseover_colors="LightBlue2", key="Complete", image_size=(70,50))
 exit_button = sg.Button('Exit')
 
 window = sg.Window('My to-do App',
                    layout=[[clock],
                            [lable],
-                           [User_input,Button],
-                           [list_box,Edit_button,complate_button],
+                           [User_input, Add_Button],
+                           [list_box, Edit_button, complete_button],
                            [exit_button]],
-                   font=('Helvetica',20))
+                   font=('Helvetica', 20))
 
 while True:
     event, values = window.read(timeout=200)
@@ -57,11 +57,11 @@ while True:
         case "todos_list":
             window['todo'].update(value=values['todos_list'][0])
 
-        case "Complate":
+        case "Complete":
             try:
-                todo_to_complate = values['todos_list'][0]
+                todo_to_complete = values['todos_list'][0]
                 todos = function.get_todos()
-                todos.remove(todo_to_complate)
+                todos.remove(todo_to_complete)
                 function.write_todos(todos)
                 window['todos_list'].update(values=todos)
                 window['todo'].update(value='')
