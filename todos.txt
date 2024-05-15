@@ -1,12 +1,4 @@
-include new feature
-Play cricket
-Watch Cricket
-hey let's play cricket
 new to-do is added
 wow! new thing is being added
-GT VS RCB
-now make a app
-Paly chess now
-YASH
-fix the code 
-clean the bag
+play chess
+hello
