@@ -8,3 +8,5 @@ GT VS RCB
 now make a app
 Paly chess now
 YASH
+fix the code 
+clean the bag
