@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ea0fa256-05de-4ad6-9199-d0f30ef06732" name="Changes" comment="remove image button complete GUI todo app" />
+    <list default="true" id="ea0fa256-05de-4ad6-9199-d0f30ef06732" name="Changes" comment="gray photo converter">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/todos.txt" beforeDir="false" afterPath="$PROJECT_DIR$/todos.txt" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -32,14 +36,12 @@
     &quot;assignee&quot;: &quot;YashSakhareliya&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings">
-    <option name="selectedUrlAndAccountId">
-      <UrlAndAccount>
-        <option name="accountId" value="3712a312-eb61-4a9a-a8f2-4e50f767f9b3" />
-        <option name="url" value="https://github.com/YashSakhareliya/TO_DO_APP-CLI-.git" />
-      </UrlAndAccount>
-    </option>
-  </component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/YashSakhareliya/TO_DO_APP-CLI-.git&quot;,
+    &quot;accountId&quot;: &quot;11a0fe24-c3ac-4ac7-b193-7bf903d298a8&quot;
+  }
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 7
 }</component>
@@ -57,10 +59,12 @@
     &quot;Python.Ex_1.executor&quot;: &quot;Run&quot;,
     &quot;Python.Ex_2.executor&quot;: &quot;Run&quot;,
     &quot;Python.GUI_TO_DO.executor&quot;: &quot;Run&quot;,
+    &quot;Python.WEB_TO_DO.executor&quot;: &quot;Run&quot;,
     &quot;Python.main.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Yash sakhareliya/PycharmProjects/TO_DO_APP(CLI)&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -75,7 +79,7 @@
       <recent name="C:\Users\sakha\PycharmProjects\TO_DO_APP(CLI)" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.WEB_TO_DO">
     <configuration name="CLI_TO_DO" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="TO_DO_APP" />
       <option name="ENV_FILES" value="" />
@@ -90,7 +94,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="C:\Users\sakha\PycharmProjects\TO_DO_APP(CLI)\CLI_TO_DO.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/CLI_TO_DO.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -99,11 +103,44 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="WEB_TO_DO" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="TO_DO_APP" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/WEB_TO_DO.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.CLI_TO_DO" />
+      <item itemvalue="Python.WEB_TO_DO" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.WEB_TO_DO" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-python-sdk-5a2391486177-2887949eec09-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-233.13763.11" />
+        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-PY-241.18034.82" />
+        <option value="bundled-python-sdk-975db3bf15a3-2767605e8bc2-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-241.18034.82" />
       </set>
     </attachedChunks>
   </component>
@@ -129,6 +166,14 @@
       <workItem from="1715573510004" duration="6526000" />
       <workItem from="1715653370984" duration="279000" />
       <workItem from="1715653667708" duration="690000" />
+      <workItem from="1715760475600" duration="9000" />
+      <workItem from="1715760983374" duration="17000" />
+      <workItem from="1716788548191" duration="127000" />
+      <workItem from="1720494592893" duration="1322000" />
+      <workItem from="1720496022774" duration="831000" />
+      <workItem from="1720496871615" duration="383000" />
+      <workItem from="1720497287381" duration="161000" />
+      <workItem from="1720497476663" duration="808000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <option name="closed" value="true" />
@@ -258,7 +303,23 @@
       <option name="project" value="LOCAL" />
       <updated>1715585911097</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="basic web interface complete">
+      <option name="closed" value="true" />
+      <created>1715758288534</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1715758288534</updated>
+    </task>
+    <task id="LOCAL-00018" summary="gray photo converter">
+      <option name="closed" value="true" />
+      <created>1715758440518</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1715758440518</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -304,13 +365,16 @@
     <MESSAGE value="change theme, add time, handle edit and complate error" />
     <MESSAGE value="implement image button and final touches" />
     <MESSAGE value="remove image button complete GUI todo app" />
-    <option name="LAST_COMMIT_MESSAGE" value="remove image button complete GUI todo app" />
+    <MESSAGE value="basic web interface complete" />
+    <MESSAGE value="gray photo converter" />
+    <option name="LAST_COMMIT_MESSAGE" value="gray photo converter" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/TO_DO_APP_CLI_$Ex_2.coverage" NAME="Ex_2 Coverage Results" MODIFIED="1715487070207" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Examples" />
-    <SUITE FILE_PATH="coverage/TO_DO_APP$GUI_TO_DO.coverage" NAME="GUI_TO_DO Coverage Results" MODIFIED="1715587915574" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/TO_DO_APP$CLI_TO_DO.coverage" NAME="CLI_TO_DO Coverage Results" MODIFIED="1715569093871" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/TO_DO_APP_CLI_$main.coverage" NAME="main Coverage Results" MODIFIED="1715488248727" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/TO_DO_APP_CLI_$Ex_1.coverage" NAME="Ex_1 Coverage Results" MODIFIED="1715239182536" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Examples" />
+    <SUITE FILE_PATH="coverage/TO_DO_APP$GUI_TO_DO.coverage" NAME="GUI_TO_DO Coverage Results" MODIFIED="1720496372640" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/TO_DO_APP$CLI_TO_DO.coverage" NAME="CLI_TO_DO Coverage Results" MODIFIED="1720496738774" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/TO_DO_APP$WEB_TO_DO.coverage" NAME="WEB_TO_DO Coverage Results" MODIFIED="1720496760826" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
