@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ea0fa256-05de-4ad6-9199-d0f30ef06732" name="Changes" comment="gray photo converter">
+    <list default="true" id="ea0fa256-05de-4ad6-9199-d0f30ef06732" name="Changes" comment="add new todo">
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/todos.txt" beforeDir="false" afterPath="$PROJECT_DIR$/todos.txt" afterDir="false" />
@@ -70,7 +70,7 @@
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
@@ -79,7 +79,7 @@
       <recent name="C:\Users\sakha\PycharmProjects\TO_DO_APP(CLI)" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.WEB_TO_DO">
+  <component name="RunManager" selected="Python.CLI_TO_DO">
     <configuration name="CLI_TO_DO" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="TO_DO_APP" />
       <option name="ENV_FILES" value="" />
@@ -174,6 +174,11 @@
       <workItem from="1720496871615" duration="383000" />
       <workItem from="1720497287381" duration="161000" />
       <workItem from="1720497476663" duration="808000" />
+      <workItem from="1720498639457" duration="247000" />
+      <workItem from="1721667573452" duration="1995000" />
+      <workItem from="1721698445836" duration="492000" />
+      <workItem from="1721971215886" duration="296000" />
+      <workItem from="1734191916400" duration="636000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <option name="closed" value="true" />
@@ -319,7 +324,15 @@
       <option name="project" value="LOCAL" />
       <updated>1715758440518</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="add new todo">
+      <option name="closed" value="true" />
+      <created>1720498859910</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1720498859910</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -367,14 +380,15 @@
     <MESSAGE value="remove image button complete GUI todo app" />
     <MESSAGE value="basic web interface complete" />
     <MESSAGE value="gray photo converter" />
-    <option name="LAST_COMMIT_MESSAGE" value="gray photo converter" />
+    <MESSAGE value="add new todo" />
+    <option name="LAST_COMMIT_MESSAGE" value="add new todo" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/TO_DO_APP_CLI_$Ex_2.coverage" NAME="Ex_2 Coverage Results" MODIFIED="1715487070207" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Examples" />
     <SUITE FILE_PATH="coverage/TO_DO_APP_CLI_$main.coverage" NAME="main Coverage Results" MODIFIED="1715488248727" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/TO_DO_APP_CLI_$Ex_1.coverage" NAME="Ex_1 Coverage Results" MODIFIED="1715239182536" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Examples" />
-    <SUITE FILE_PATH="coverage/TO_DO_APP$GUI_TO_DO.coverage" NAME="GUI_TO_DO Coverage Results" MODIFIED="1720496372640" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/TO_DO_APP$CLI_TO_DO.coverage" NAME="CLI_TO_DO Coverage Results" MODIFIED="1720496738774" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/TO_DO_APP$WEB_TO_DO.coverage" NAME="WEB_TO_DO Coverage Results" MODIFIED="1720496760826" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/TO_DO_APP$GUI_TO_DO.coverage" NAME="GUI_TO_DO Coverage Results" MODIFIED="1721971254027" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/TO_DO_APP$WEB_TO_DO.coverage" NAME="WEB_TO_DO Coverage Results" MODIFIED="1721667589582" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/TO_DO_APP$CLI_TO_DO.coverage" NAME="CLI_TO_DO Coverage Results" MODIFIED="1734191939636" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
